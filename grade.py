@@ -1,11 +1,9 @@
 # Creates a text file containing the final average of all the grading 
 
 a = "a students name, grade level and will calculate the average grade of the student"
-creator = "Amazing Grace Cabiles\n"
 
 print("\nThis program will store:", (a))
 print("!!!! Always Follow the prompt of the program !!!!")
-print("\nThis program was made by:", (creator))
 
 def grade_program():
   print("\nEnter Full Name: ")
