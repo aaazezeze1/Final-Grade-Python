@@ -3,7 +3,6 @@
 a = "a students name, grade level and will calculate the average grade of the student"
 
 print("\nThis program will store:", (a))
-print("!!!! Always Follow the prompt of the program !!!!")
 
 def grade_program():
   print("\nEnter Full Name: ")
@@ -29,7 +28,7 @@ def grade_program():
   print("\nAverage Grade = \n" , str(final_grade))
   print("\n Done!\n")
 
-  write_grade = open(r"C:\Users\Amazing\Documents\Notepad files\Average Grade.txt", "a")
+  write_grade = open("Average Grade.txt", "a")
 
   write_grade.write("\nName: ")
   write_grade.write(str(name))
