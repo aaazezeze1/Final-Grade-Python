@@ -8,22 +8,22 @@ print("!!!! Always Follow the prompt of the program !!!!")
 print("\nThis program was made by:", (creator))
 
 def grade_program():
-  print("\nEnter Full Name: \n")
+  print("\nEnter Full Name: ")
   name = str(input())
 
-  print("\nEnter Grade Level: \n")
+  print("\nEnter Grade Level: ")
   grade_level = int(input())
 
-  print("\nEnter First Grading Average: \n")
+  print("\nEnter First Grading Average: ")
   average_1 = int(input())
 
-  print("\nEnter Second Grading Average: \n")
+  print("\nEnter Second Grading Average: ")
   average_2 = int(input())
 
-  print("\nEnter Third Grading Average: \n")
+  print("\nEnter Third Grading Average: ")
   average_3 = int(input())
 
-  print("\nEnter Fourth Grading Average: \n")
+  print("\nEnter Fourth Grading Average: ")
   average_4 = int(input())
 
   add_average = (average_1 + average_2 + average_3 + average_4)
